@@ -33,7 +33,9 @@
 						<h2 class="major">Our Services</h2>
 						<ul>
 							<li><strong>Botox Injections:</strong> Smooth fine lines and wrinkles</li>
-							<li><strong>Our expertise:</strong> crow’s feet, forehead lines, and frown lines</li>
+							<li><strong>Vitamin B12 Shots:</strong> Boost energy and mood</li>
+							<li><strong>Skinvive Hydration:</strong> Improve skin glow and texture</li>
+							<li><strong>Microneedling:</strong> Enhance collagen and rejuvenate your skin</li>
 						</ul>
 					</div>
 					<div class="image filtered tinted" data-position="top left">
@@ -49,21 +51,22 @@
 					</div>
 					<div class="inner columns divided">
 						<div class="span-3-25">
-							<form method="post" action="#">
+							<form method="POST" action="https://formspree.io/f/mdkgbjzz">
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" required />
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" required />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 								</div>
+								<input type="hidden" name="_subject" value="New message from Timeless Touch site">
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="button primary" /></li>
 								</ul>
